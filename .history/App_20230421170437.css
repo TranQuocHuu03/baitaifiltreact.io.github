@@ -1,0 +1,54 @@
+
+
+.product {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  width: 1fr;
+  grid-gap: 25px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.card {
+  display: grid;
+}
+
+.contain {
+  width: 1fr;
+  display: grid;
+}
+
+.action-primary {
+  background: green;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  -webkit-text-stroke: 1px rgb(255, 247, 0);
+  /* width and color */
+  font-size: 20px;
+  font-family: sans;
+  color: yellow;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.action-primary:hover {
+  color: red;
+  background-color: aqua;
+}
+
+.update{
+  margin-left: 20%;
+}
+.update:hover{
+  background-color: greenyellow;
+}
+.add{
+  margin-left: 10%;
+}
+.add:hover{
+  background-color: greenyellow;
+}
